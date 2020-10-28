@@ -1,0 +1,156 @@
+// Variables
+// Color overrides
+
+// Set a custom color
+$blue: rgba(112, 22, 113, 0.81) !default;
+$brown: #5c4d42 !default;
+$silver: rgba(80, 80, 80, 0.71) !default;
+
+// Set primary color to orange
+$primary: $blue !default;
+
+// Font overrides
+$font-family-sans-serif: "Merriweather Sans",
+-apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+"Noto Sans",
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+'Noto Color Emoji' !default;
+
+$font-family-serif: "Merriweather",
+-apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+"Noto Sans",
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+'Noto Color Emoji' !default;
+
+$font-family-base: $font-family-serif !default;
+
+$headings-font-family: $font-family-sans-serif !default;
+
+// Custom variables
+$navbar-height: 72px;
+
+
+// Styling for the portfolio section
+#portfolio {
+  .container-fluid {
+    max-width: 1920px;
+
+    .portfolio-box {
+      position: relative;
+      display: block;
+
+      .portfolio-box-caption {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        text-align: center;
+        opacity: 0;
+        color: white;
+        background: fade-out($silver, .1);
+        transition: opacity 0.25s ease;
+        text-align: center;
+        transition: opacity 0.75s ease;
+
+        .project-category {
+          font-family: $font-family-sans-serif;
+          font-size: 0.85rem;
+          font-weight: 600;
+          text-transform: uppercase;
+        }
+
+        .project-name {
+          font-size: 1.2rem;
+        }
+      }
+
+      &:hover {
+        .portfolio-box-caption {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.img-fluid {
+  height: 280px;
+  width: 449px;
+}
+.portfolio-box{
+  transition: all 1.6s eas-in-out;
+
+}
+
+.portfolio-box>img {
+  transition: all .6s ease-in-out;
+    border-radius: 10px;
+    box-shadow: 0 0 4px 1px #ffffff;
+  transform: rotateX(60deg);
+}
+
+.portfolio-box>img:hover {
+    position: absolute;
+    z-index: 5;
+    transform: rotateX(0deg);
+    transform: scale(1.4);
+    box-shadow: 0px 9px 24px 0px #000000;
+    margin: 0 auto 0 auto;
+}
+
+#portfolio {
+  padding: 135px;
+}
+
+.no-gutters>col,
+.no-gutters>[class*="col-"] {
+  padding-right: 3px;
+  padding-left: 3px;
+  padding-top: 10px;
+}
+
+
+
+
+.portfolio-box-caption:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: white;
+  background: rgba(49, 49, 49, 0.71);
+  transition: opacity 0.25s ease;
+  text-align: center;
+  transition: opacity 0.75s ease;
+  box-shadow: inset -6px 4px 23px 2px black;
+
+  img{
+    display: none;
+  }
+}

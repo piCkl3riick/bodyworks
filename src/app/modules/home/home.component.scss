@@ -1,0 +1,376 @@
+//  .containerr{
+//     margin: 67px 0 0 47%;
+//     height: 596px;
+//     background-image: url(/assets/Tattoos/dreamm.png);
+//     background-repeat: no-repeat;
+//     background-position-y: 0px;
+//     background-position-x: 0px;
+//     background-size: 100%;
+//     opacity: 0.5;
+//     width: 45%;
+//     transition: all 0.4s ease-in-out;
+//  }
+@media screen and (min-width: 500px) {
+  .container {
+    h4 {
+      font-size: 1em;
+      word-spacing: 3px;
+      font-family: westFont;
+      color: grey;
+    text-shadow: 3px 2px 5px #000000;
+    }
+
+    #tattooShop {
+      letter-spacing: 16px;
+      font-family: TattooFont !important;
+      font-weight: body;
+      color: aliceblue;
+      line-height: 20px;
+
+      font-kerning: normal;
+      font-size: larger;
+          text-shadow: 3px 2px 5px #000000;
+    }
+        p {
+          font-size: .8rem;
+          color: white;
+          margin-bottom: 3rem;
+              text-shadow: 3px 2px 5px #000000;
+        }
+
+        .home-btns{
+button:last-of-type{
+          margin-top: 10px;
+}
+
+
+        }
+
+
+
+
+  }
+
+       .containerr {
+         margin-left: 20%;
+         margin-top: 0px;
+         width: 45%;
+         height: 100%;
+
+         img {
+           margin: -170px 0 0 70%;
+               width: 104.5%;
+           height: 936px;
+           transition: all 0.6s ease-in-out;
+           overflow-block: hidden;
+           background-color: #eae9e9;
+           transform: rotateX(45deg);
+           opacity: 1;
+               box-shadow: 0px 0px 15px 0px black;
+         }
+
+         img:hover {
+        width: 127%;
+        position: relative;
+        margin: -164px 0 0 60%;
+        opacity: 1;
+        box-shadow: 0px 0px 20px 3px black;
+         }
+       }
+
+
+
+       #first-col{
+         margin-top: 75px;
+       }
+
+         #first-col-text {
+           background-color: #ffffffcc;
+           border-radius: 5px;
+           width: 33%;
+           box-sizing: border-box;
+           text-align: center;
+           padding: 55px 10%;
+           box-shadow: inset 0px 0px 134px -3px #000000;
+               margin: 33px 0 0 9%;
+                   border: 2px solid black;
+                   box-shadow: inset 0px 0px 134px -3px #000000;
+                       transform: rotateY(3deg);
+    border-bottom: 8px solid rgb(236, 236, 236);
+    border-top: 8px solid rgb(236, 236, 236);
+    border-left: 8px solid #525252;
+    border-right: 8px solid #525252;
+
+         }
+
+   #project-two-row {
+     height: 145vh;
+
+
+     .col-lg-6{
+           margin-top: 85px;
+          }
+
+
+   }
+
+}
+
+@media screen and (min-width: 993px) {
+  .container {
+    h4 {
+      font-size: x-large;
+      word-spacing: 3px;
+      font-family: westFont;
+      color: grey;
+    }
+
+    #tattooShop {
+      letter-spacing: 16px;
+      font-family: TattooFont !important;
+      font-weight: body;
+      color: aliceblue;
+      line-height: 55px;
+
+      font-kerning: normal;
+      font-size: larger;
+          font-weight: 900;
+    }
+
+    p {
+      font-size: 1.0rem;
+      color: white;
+      margin-bottom: 3rem
+    }
+  }
+
+  .containerr {
+    margin-left: 20%;
+    margin-top: 0px;
+    width: 45%;
+    height: 100%;
+
+    img {
+      margin: -250px 0 0 60%;
+      width: 636px;
+      height: 991px;
+      transition: all 0.6s ease-in-out;
+      overflow-block: hidden;
+      background-color: #eae9e9;
+      transform: rotateX(45deg);
+      opacity: 1;
+    }
+
+    img:hover {
+      width: 122%;
+      position: relative;
+      /* transform: scale(1.2); */
+      margin: -250px 0 0 60%;
+      opacity: 1;
+    }
+  }
+
+  #first-col {
+    margin-top: 155px;
+  }
+
+  #first-col-text{
+    background-color: #ffffffcc;
+    border-radius: 5px;
+    width: 33%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 55px 10%;
+    box-shadow: inset 0px 0px 134px -3px #000000;
+  }
+
+
+   #project-two-row {
+     height: 100vh;
+   }
+
+}
+
+
+#home {
+  height: 100vh;
+  overflow: hidden;
+  box-shadow: inset 0 0 98px -10px black;
+}
+
+
+
+img-home {
+  width: 500px;
+  height: 375px;
+  float: left;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+#img-home {
+  transform: rotateY(6deg);
+  margin-left: 10%;
+}
+
+header {
+  margin-top: 0px;
+  opacity: 1;
+  background-color: white;
+
+
+
+  #bodyWorksSpan {
+    transition: all 0.8s ease-in-out;
+  }
+
+
+
+  .container:hover {
+
+    #bodyWorksSpan {
+      //   transform: scale(1.5);
+      font-size: 1.1em;
+    }
+
+  }
+}
+
+#westCoast {
+
+
+
+  &::before {
+    content: '';
+    position: absolute;
+    background-color: #71003d;
+    width: 2px;
+    height: 55px;
+    left: 0;
+    top: 8px;
+  }
+}
+
+
+
+
+
+
+//  .view .mask {
+//    position: absolute;
+//    top: 0;
+//    left: 0;
+//    right: 0;
+//    bottom: 0;
+//    overflow: hidden;
+//    width: 100%;
+//    height: 100%;
+//    background-attachment: fixed;
+//  }
+//  .waves-effect {
+//    position: relative;
+//    cursor: pointer;
+//    overflow: hidden;
+//    -webkit-user-select: none;
+//    -moz-user-select: none;
+//    -ms-user-select: none;
+//    user-select: none;
+//    -webkit-tap-highlight-color: transparent;
+//  }
+
+
+.carousel {
+  height: 980px;
+  background-color: white;
+}
+
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 38%;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.home {
+  background-color: rgba(53, 17, 17, 0.1);
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+#img-home {
+  max-width: 59%;
+}
+
+.carousel-control-prev[_ngcontent-irq-c3],
+.carousel-control-next[_ngcontent-irq-c3] {
+  position: absolute;
+  top: 38%;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.carousel-control-prev {
+  left: 0px;
+}
+
+.carousel-control-next {
+  z-index: 2;
+  right: 0px;
+}
+
+.containerr img {
+
+  opacity: 1;
+  transition: all 0.6s ease-in-out;
+  overflow-block: hidden;
+  background-color: #eae9e9;
+  transform: rotateX(45deg);
+}
+
+
+@media screen and (min-width: 1536px) {
+  .containerr {
+    img {
+      margin: -290px 0 0 60%;
+      width: 636px;
+      height: 141vh;
+      transition: all 0.6s ease-in-out;
+      overflow-block: hidden;
+      background-color: #eae9e9;
+      transform: rotateX(45deg);
+      opacity: 1;
+    }
+  }
+
+}
+
+
+.project-text{
+      padding: 0 10%;
+
+}
