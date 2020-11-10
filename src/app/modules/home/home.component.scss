@@ -241,13 +241,15 @@ header {
 
 
   &::before {
-    content: '';
-    position: absolute;
-    background-color: #71003d;
-    width: 2px;
-    height: 55px;
-    left: 0;
-    top: 8px;
+content: '';
+position: absolute;
+background-color: #71003d;
+width: 1px;
+height: 55px;
+left: 0;
+top: 8px;
+text-shadow: 4px 3px 12px #d30a77;
+box-shadow: 4px 0px 9px 1px #c9006c;
   }
 }
 

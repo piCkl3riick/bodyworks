@@ -1,3 +1,12 @@
+#artist>img{
+  margin-left: 41.5%;
+  z-index: 1;
+  margin-top: 41px;
+  position: absolute;
+  width: 12%;
+  z-index: 15 !important;
+}
+
 @media screen and (min-width: 500px){
   #artist-intro{
     height: auto;
@@ -121,13 +130,14 @@
 }
 
 .view {
-  border-bottom: #880e4f;
-  border-width: 0px;
-  border-bottom-width: 1px;
-  border-style: solid;
+    border-bottom: #880e4f;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    border-style: solid;
     box-shadow: inset 0px -2px 44px 8px #00000094;
-  padding-left: 24.5%;
-  transition: all 0.6s ease-in-out;
+    padding-left: 24.5%;
+    transition: all 0.6s ease-in-out;
+    box-shadow: 0px 28px 42px -17px #880e4f42;
 
   img{
     transition: all .3s ease-in-out;

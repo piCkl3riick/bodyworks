@@ -15,14 +15,7 @@
   background-color: #343a4070 !important;
 }
 
-.fixed-top {
-  position: fixed;
-  // top: 0;
-  // right: 0;
-  // left: 0;
-  // z-index: 1030;
-  // height: 50px;
-}
+
 
 .navbar-brand {
   margin: 0 0 0 0;
@@ -94,12 +87,6 @@
   cursor: pointer;
 }
 
-.nav-item:hover {
-  background-image: url('/assets/paint/kindpng.png');
-  background-repeat: no-repeat;
-  background-size: 77%;
-  background-position-y: -17px;
-}
 
 
 a {
@@ -137,15 +124,34 @@ a {
   }
 }
 
+.cont{
+      width: 122%;
+}
+
+.nav-item {
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+  height: 34px;
+
+}
+
+#mainNav .navbar-nav .nav-item .nav-link{
+    background-position-y: 18px;
+    background-repeat: no-repeat;
+    background-size: 41%;
+    height: -webkit-fill-available;
+    transition: .3s all ease-in-out;
+    background-position-x: center;
+}
+
 #mainNav .navbar-nav .nav-item .nav-link.active {
+   background-size: 80%;
   // color: #f4623a !important;
    color: rgb(236, 20, 136) !important;
    font-weight: bold;
-   background-image: url('/assets/paint/kindpng.png');
-   background-repeat: no-repeat;
-   background-size: 77%;
-   background-position-y: -17px;
-   transform: rotate(-10deg);
+background-image: url('/assets/svgs/underline art shadoww.svg');
+    text-shadow: 3px 2px 5px #000000;
+    font-family: westFont;
 }
 
 
